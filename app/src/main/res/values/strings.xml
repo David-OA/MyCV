@@ -4,4 +4,8 @@
     <!-- Used in NavigationDrawer -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mes_coordonn_es">Mes Coordonnées</string>
+    <string name="centres_d_inter_ts">Centres d\'interêts</string>
+    <string name="langues">Langues</string>
+    <string name="anglais_parl_et_crit">Anglais parlé et écrit :</string>
 </resources>

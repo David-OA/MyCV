@@ -10,6 +10,11 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.oconte.david.mycurriculumvitae.Fragments.HomeFragment;
+import com.oconte.david.mycurriculumvitae.Fragments.InterestsFragment;
+import com.oconte.david.mycurriculumvitae.Fragments.NewsFragment;
+import com.oconte.david.mycurriculumvitae.Fragments.LanguesFragment;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -66,13 +71,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         switch (id){
-            case R.id.activity_main_drawer_news :
+            case R.id.activity_main_drawer_coordonnees:
                 this.showFragment(FRAGMENT_NEWS);
                 break;
-            case R.id.activity_main_drawer_profile:
+            case R.id.activity_main_drawer_langues:
                 this.showFragment(FRAGMENT_PROFILE);
                 break;
-            case R.id.activity_main_drawer_settings:
+            case R.id.activity_main_drawer_interests:
                 this.showFragment(FRAGMENT_PARAMS);
                 break;
             default:
@@ -167,12 +172,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void showParamsFragment(){
-        if (this.fragmentParams == null) this.fragmentParams = ParamsFragment.newInstance();
+        if (this.fragmentParams == null) this.fragmentParams = InterestsFragment.newInstance();
         this.startTransactionFragment(this.fragmentParams);
     }
 
     private void showProfileFragment(){
-        if (this.fragmentProfile == null) this.fragmentProfile = ProfileFragment.newInstance();
+        if (this.fragmentProfile == null) this.fragmentProfile = LanguesFragment.newInstance();
         this.startTransactionFragment(this.fragmentProfile);
     }
 
