@@ -10,9 +10,11 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.oconte.david.mycurriculumvitae.Fragments.EtudesFragment;
+import com.oconte.david.mycurriculumvitae.Fragments.ExperiencesFragment;
 import com.oconte.david.mycurriculumvitae.Fragments.HomeFragment;
 import com.oconte.david.mycurriculumvitae.Fragments.InterestsFragment;
-import com.oconte.david.mycurriculumvitae.Fragments.NewsFragment;
+import com.oconte.david.mycurriculumvitae.Fragments.CoordonneesFragment;
 import com.oconte.david.mycurriculumvitae.Fragments.LanguesFragment;
 
 import butterknife.BindView;
@@ -27,16 +29,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     //FOR FRAGMENTS
     // 1 - Declare fragment handled by Navigation Drawer
     private Fragment fragmentHome;
-    private Fragment fragmentNews;
-    private Fragment fragmentProfile;
-    private Fragment fragmentParams;
+    private Fragment fragmentCoordonnees;
+    private Fragment fragmentExperiences;
+    private Fragment fragmentEtudes;
+    private Fragment fragmentLangues;
+    private Fragment fragmentInterests;
 
     //FOR DATAS
     // 2 - Identify each fragment with a number
     private static final int FRAGMENT_HOME = 0;
-    private static final int FRAGMENT_NEWS = 1;
-    private static final int FRAGMENT_PROFILE = 2;
-    private static final int FRAGMENT_PARAMS = 3;
+    private static final int FRAGMENT_COORDONNEES = 1;
+    private static final int FRAGMENT_EXPERIENCES = 2;
+    private static final int FRAGMENT_ETUDES = 3;
+    private static final int FRAGMENT_LANGUES = 4;
+    private static final int FRAGMENT_INTERESTS = 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,13 +78,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         switch (id){
             case R.id.activity_main_drawer_coordonnees:
-                this.showFragment(FRAGMENT_NEWS);
+                this.showFragment(FRAGMENT_COORDONNEES);
+                break;
+            case R.id.activity_main_drawer_experiences:
+                this.showFragment(FRAGMENT_EXPERIENCES);
+                break;
+            case R.id.activity_main_drawer_etudes:
+                this.showFragment(FRAGMENT_ETUDES);
                 break;
             case R.id.activity_main_drawer_langues:
-                this.showFragment(FRAGMENT_PROFILE);
+                this.showFragment(FRAGMENT_LANGUES);
                 break;
             case R.id.activity_main_drawer_interests:
-                this.showFragment(FRAGMENT_PARAMS);
+                this.showFragment(FRAGMENT_INTERESTS);
                 break;
             default:
                 break;
@@ -145,13 +157,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             //case FRAGMENT_HOME :
                //this.showHomeFragment();
               // break;
-            case FRAGMENT_NEWS :
+            case FRAGMENT_COORDONNEES:
                 this.showNewsFragment();
                 break;
-            case FRAGMENT_PROFILE:
+            case FRAGMENT_EXPERIENCES:
+                this.showExperiencesFragment();
+                break;
+            case FRAGMENT_ETUDES:
+                this.showNewsFragment();
+                break;
+            case FRAGMENT_LANGUES:
                 this.showProfileFragment();
                 break;
-            case FRAGMENT_PARAMS:
+            case FRAGMENT_INTERESTS:
                 this.showParamsFragment();
                 break;
             default:
@@ -162,23 +180,33 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     // 4 - Create each fragment page and show it
 
     private void showHomeFragment() {
-        if (this.fragmentHome == null) this.fragmentHome = NewsFragment.newInstance();
+        if (this.fragmentHome == null) this.fragmentHome = CoordonneesFragment.newInstance();
         this.startTransactionFragment(this.fragmentHome);
     }
 
     private void showNewsFragment(){
-        if (this.fragmentNews == null) this.fragmentNews = NewsFragment.newInstance();
-        this.startTransactionFragment(this.fragmentNews);
+        if (this.fragmentCoordonnees == null) this.fragmentCoordonnees = CoordonneesFragment.newInstance();
+        this.startTransactionFragment(this.fragmentCoordonnees);
+    }
+
+    private void showExperiencesFragment(){
+        if (this.fragmentExperiences == null) this.fragmentExperiences = ExperiencesFragment.newInstance();
+        this.startTransactionFragment(this.fragmentExperiences);
+    }
+
+    private void showEtudesFragment(){
+        if (this.fragmentEtudes == null) this.fragmentEtudes = EtudesFragment.newInstance();
+        this.startTransactionFragment(this.fragmentEtudes);
     }
 
     private void showParamsFragment(){
-        if (this.fragmentParams == null) this.fragmentParams = InterestsFragment.newInstance();
-        this.startTransactionFragment(this.fragmentParams);
+        if (this.fragmentInterests == null) this.fragmentInterests = InterestsFragment.newInstance();
+        this.startTransactionFragment(this.fragmentInterests);
     }
 
     private void showProfileFragment(){
-        if (this.fragmentProfile == null) this.fragmentProfile = LanguesFragment.newInstance();
-        this.startTransactionFragment(this.fragmentProfile);
+        if (this.fragmentLangues == null) this.fragmentLangues = LanguesFragment.newInstance();
+        this.startTransactionFragment(this.fragmentLangues);
     }
 
     // ---

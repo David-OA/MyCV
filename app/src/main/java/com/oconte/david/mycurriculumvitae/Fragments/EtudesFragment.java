@@ -8,14 +8,14 @@ import android.view.ViewGroup;
 
 import com.oconte.david.mycurriculumvitae.R;
 
-public class NewsFragment extends Fragment {
+public class EtudesFragment extends Fragment {
 
-    public static NewsFragment newInstance() {
-        return (new NewsFragment());
+    public static EtudesFragment newInstance() {
+        return (new EtudesFragment());
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_coordonnees, container, false);
+        return inflater.inflate(R.layout.fragment_etudes, container, false);
     }
 }

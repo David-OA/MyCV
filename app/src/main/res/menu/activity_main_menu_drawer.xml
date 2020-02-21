@@ -14,11 +14,11 @@
             <menu>
                 <group android:checkableBehavior="single">
                     <item
-                        android:id="@+id/activity_maindrawer_experiences"
+                        android:id="@+id/activity_main_drawer_experiences"
                         android:icon="@color/colorAccent"
                         android:title="Experiences" />
                     <item
-                        android:id="@+id/activity_maindrawer_etudes"
+                        android:id="@+id/activity_main_drawer_etudes"
                         android:icon="@color/colorAccent"
                         android:title="Etudes" />
                     <item
