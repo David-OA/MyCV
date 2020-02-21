@@ -158,19 +158,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                //this.showHomeFragment();
               // break;
             case FRAGMENT_COORDONNEES:
-                this.showNewsFragment();
+                this.showCoordonneesFragment();
                 break;
             case FRAGMENT_EXPERIENCES:
                 this.showExperiencesFragment();
                 break;
             case FRAGMENT_ETUDES:
-                this.showNewsFragment();
+                this.showEtudesFragment();
                 break;
             case FRAGMENT_LANGUES:
-                this.showProfileFragment();
+                this.showLanguesFragment();
                 break;
             case FRAGMENT_INTERESTS:
-                this.showParamsFragment();
+                this.showInterestsFragment();
                 break;
             default:
                 break;
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         this.startTransactionFragment(this.fragmentHome);
     }
 
-    private void showNewsFragment(){
+    private void showCoordonneesFragment(){
         if (this.fragmentCoordonnees == null) this.fragmentCoordonnees = CoordonneesFragment.newInstance();
         this.startTransactionFragment(this.fragmentCoordonnees);
     }
@@ -199,12 +199,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         this.startTransactionFragment(this.fragmentEtudes);
     }
 
-    private void showParamsFragment(){
+    private void showInterestsFragment(){
         if (this.fragmentInterests == null) this.fragmentInterests = InterestsFragment.newInstance();
         this.startTransactionFragment(this.fragmentInterests);
     }
 
-    private void showProfileFragment(){
+    private void showLanguesFragment(){
         if (this.fragmentLangues == null) this.fragmentLangues = LanguesFragment.newInstance();
         this.startTransactionFragment(this.fragmentLangues);
     }
