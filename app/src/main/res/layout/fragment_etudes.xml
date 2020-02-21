@@ -10,31 +10,28 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/langues"/>
+        android:text="@string/etudes"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/anglais_parl_et_crit"/>
+        android:text="@string/_2019_concepteur_d_applications_android_bac_4_avec_openclassroom"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contr_les_spanc_en_anglais"/>
+        android:text="@string/_2010_2012_btsa_gestion_et_ma_trise_de_l_eau"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/s_jours_linguistiques_en_su_de"/>
+        android:text="@string/_2009_2010_licence_de_biologie_toulon"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/voyages_sportifs_au_luxembourg_deauville_la_baule_l_anglais_au_polo_est_toujours_utile"/>
+        android:text="2009 : Bac S option biologie écologie"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/etudes_scientifiques_en_section_europ_enne"/>
+
 
 </LinearLayout>

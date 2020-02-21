@@ -10,41 +10,26 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/langues"/>
+        android:text="@string/exp_riences"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/anglais_parl_et_crit"/>
+        android:text="@string/octobre_d_cembre_2016_perfectionnement_en_r_seau_urbain_et_management"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contr_les_spanc_en_anglais"/>
+        android:text="@string/mai_2014_31_octobre_2015_mise_en_place_et_g_stion_du_service_anc_pour_une_collectivit"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/s_jours_linguistiques_en_su_de"/>
+        android:text="@string/_2012_mai_2013_saur_charg_de_missions_aupr_s_du_chef_de_secteur"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/voyages_sportifs_au_luxembourg_deauville_la_baule_l_anglais_au_polo_est_toujours_utile"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/etudes_scientifiques_en_section_europ_enne"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/italien_scolaire"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Séjour à venise, Murano"/>
+        android:text="2010 - 2012 : BTSA GEMEAU option GSEA en alternance."/>
 
 </LinearLayout>
