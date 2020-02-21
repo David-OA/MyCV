@@ -10,6 +10,9 @@
     <ImageView
         android:id="@+id/imageview_header_navigationview"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="left"
+        android:background="@drawable/david26"/>
 
 </LinearLayout>
