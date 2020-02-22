@@ -38,4 +38,21 @@
     <string name="le_logiciel_saphir_pour_l_eau_potable">Le logiciel Saphir pour l\'eau potable</string>
     <string name="autocad">Autocad</string>
     <string name="la_suite_microsoft_et_open_office">La suite Microsoft et open Office</string>
+    <string name="administratives">Administratives</string>
+    <string name="documents_de_communication">Documents de communication</string>
+    <string name="site_internet">Site internet</string>
+    <string name="g_stion_d_une_base_de_donn_e_en_biologie">Géstion d\'une base de donnée en Biologie</string>
+    <string name="communication_au_pr_s_des_usagers">Communication au près des usagers</string>
+    <string name="commissions_avec_des_lus">Commissions avec des élus</string>
+    <string name="r_unions_publics_et_professionneles">Réunions publics et professionneles</string>
+    <string name="rapports_et_collectes_des_donn_es_sur_logiciel">Rapports et collectes des données sur logiciel</string>
+    <string name="budget_pr_visionnel_et_facturation">Budget prévisionnel et facturation</string>
+    <string name="techniques">Techniques :</string>
+    <string name="intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie">Intervention et suivi sur des cas spéciaux (ex : une laiterie)</string>
+    <string name="mesure_et_r_glages_en_station_et_r_servoir">Mesure et réglages en station et réservoir</string>
+    <string name="suivi_et_contr_le_de_chantier">Suivi et contrôle de chantier</string>
+    <string name="chiffrage_de_travaux">Chiffrage de travaux</string>
+    <string name="recherche_et_r_paration_de_fuites_sur_r_seau">Recherche et réparation de fuites sur réseau</string>
+    <string name="mise_en_place_de_la_t_l_rel_ve_type_sofrel">Mise en place de la télé relève : type sofrel</string>
+    <string name="participation_aux_groupes_de_travail_d_partementale_r_gionnale_et_nationnale">Participation aux groupes de travail, départementale, régionnale et nationnale.</string>
 </resources>

@@ -5,16 +5,19 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_news_rootview4"
     android:orientation="vertical"
-    android:background="#EDD9CF">
+    android:background="@color/colorPrimaryLight">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/titleText"
         android:text="@string/langues"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/secondTitleText"
         android:text="@string/anglais_parl_et_crit"/>
 
     <TextView

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_news_rootview2"
     android:orientation="vertical"
-    android:background="#EDD9CF">
+    android:background="@color/colorPrimaryLight">
 
     <TextView
         android:layout_width="match_parent"

@@ -20,4 +20,14 @@
 
     </style>
 
+    <style name="titleText" >
+        <item name="android:textSize">@dimen/size_title</item>
+        <item name="android:textColor">@color/textPrimaryColor</item>
+    </style>
+
+    <style name="secondTitleText" >
+        <item name="android:textSize">@dimen/size_second_title</item>
+        <item name="android:textColor">@color/textPrimaryColor</item>
+    </style>
+
 </resources>
