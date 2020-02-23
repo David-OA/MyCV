@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         style="@style/titleText"
-        android:text="Mes Coordonnées"/>
+        android:text="@string/mes_coordonn_es"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,34 +23,34 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="90 chemin des cercols"/>
+            android:text="@string/_90_chemin_des_cercols"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="26 250 Livron sur Drome"/>
+            android:text="@string/_26_250_livron_sur_drome"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/outline_phone_android_black_18"
-            android:text="06 43 41 44 74"/>
+            android:text="@string/_06_43_41_44_74"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="fixe : 09 62 10 40 66"/>
+            android:text="@string/_09_62_10_40_66"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/outline_email_black_18"
-            android:text="david.oconte@orange.fr"/>
+            android:text="@string/david_oconte_orange_fr"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Linkedin : "/>
+            android:text="@string/linkedin"/>
 
     </LinearLayout>
 

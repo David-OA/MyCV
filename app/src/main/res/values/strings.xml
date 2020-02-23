@@ -4,7 +4,7 @@
     <!-- Used in NavigationDrawer -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="mes_coordonn_es">Mes Coordonnées</string>
+
     <string name="centres_d_inter_ts">Centres d\'interêts</string>
     <string name="langues">Langues</string>
     <string name="anglais_parl_et_crit">Anglais parlé et écrit :</string>
@@ -55,4 +55,13 @@
     <string name="recherche_et_r_paration_de_fuites_sur_r_seau">Recherche et réparation de fuites sur réseau</string>
     <string name="mise_en_place_de_la_t_l_rel_ve_type_sofrel">Mise en place de la télé relève : type sofrel</string>
     <string name="participation_aux_groupes_de_travail_d_partementale_r_gionnale_et_nationnale">Participation aux groupes de travail, départementale, régionnale et nationnale.</string>
+
+    <!-- Coordonnées Fragment -->
+    <string name="_90_chemin_des_cercols">90 chemin des cercols</string>
+    <string name="_26_250_livron_sur_drome">26 250 Livron sur Drome</string>
+    <string name="_06_43_41_44_74">06 43 41 44 74</string>
+    <string name="_09_62_10_40_66">09 62 10 40 66</string>
+    <string name="david_oconte_orange_fr">david.oconte@orange.fr</string>
+    <string name="linkedin">Linkedin :</string>
+    <string name="mes_coordonn_es">Mes Coordonnées</string>
 </resources>
