@@ -23,7 +23,7 @@
                         android:title="Etudes" />
                     <item
                         android:id="@+id/activity_main_drawer_langues"
-                        android:icon="@color/colorSecondary"
+                        android:icon="@drawable/outline_language_black_18"
                         android:title="@string/langues" />
                     <item
                         android:id="@+id/activity_main_drawer_interests"
