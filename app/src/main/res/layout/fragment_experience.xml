@@ -1,37 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/fragment_news_rootview2"
     android:orientation="vertical"
     android:background="@color/colorPrimaryLight">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        style="@style/titleText"
-        android:text="@string/exp_riences"/>
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/octobre_d_cembre_2016_perfectionnement_en_r_seau_urbain_et_management"/>
+        <TextView
+            android:id="@+id/experience_fragment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/titleText"
+            android:text="@string/exp_riences"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mai_2014_31_octobre_2015_mise_en_place_et_g_stion_du_service_anc_pour_une_collectivit"/>
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/_2012_mai_2013_saur_charg_de_missions_aupr_s_du_chef_de_secteur"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/octobre_d_cembre_2016_perfectionnement_en_r_seau_urbain_et_management"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="2010 - 2012 : BTSA GEMEAU option GSEA en alternance."/>
+        <View
+            android:id="@+id/separator1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mai_2014_31_octobre_2015_mise_en_place_et_g_stion_du_service_anc_pour_une_collectivit"/>
+
+        <View
+            android:id="@+id/separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2012_mai_2013_saur_charg_de_missions_aupr_s_du_chef_de_secteur"/>
+
+        <View
+            android:id="@+id/separator4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2010 - 2012 : BTSA GEMEAU option GSEA en alternance."/>
+
+    </LinearLayout>
 
 </LinearLayout>

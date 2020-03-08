@@ -64,4 +64,11 @@
     <string name="david_oconte_orange_fr">david.oconte@orange.fr</string>
     <string name="linkedin">Linkedin :</string>
     <string name="mes_coordonn_es">Mes Coordonnées</string>
+
+    <!-- Interests Fragment -->
+    <string name="quitation_galop_7">Equitation galop 7</string>
+    <string name="polo_en_competition_champion_de_france_2016">Polo en competition champion de france 2016</string>
+    <string name="jeux_vid_os_sur_multisupports">Jeux vidéos sur multisupports</string>
+    <string name="vtt">VTT</string>
+    <string name="randonn_es">Randonnées</string>
 </resources>

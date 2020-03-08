@@ -7,18 +7,25 @@
     android:orientation="vertical"
     android:background="@color/colorPrimaryLight">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        style="@style/titleText"
-        android:text="@string/mes_coordonn_es"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="20dp"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/titleText"
+            android:text="@string/mes_coordonn_es"/>
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -30,22 +37,50 @@
             android:layout_height="wrap_content"
             android:text="@string/_26_250_livron_sur_drome"/>
 
+        <View
+            android:id="@+id/separator1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/outline_phone_android_black_18"
             android:text="@string/_06_43_41_44_74"/>
 
+        <View
+            android:id="@+id/separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/_09_62_10_40_66"/>
+
+        <View
+            android:id="@+id/separator3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/outline_email_black_18"
             android:text="@string/david_oconte_orange_fr"/>
+
+        <View
+            android:id="@+id/separator4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
 
         <TextView
             android:layout_width="match_parent"
