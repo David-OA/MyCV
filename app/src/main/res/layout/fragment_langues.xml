@@ -83,7 +83,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Séjour à venise, Murano"/>
+            android:text="@string/s_jour_venise_murano"/>
 
     </LinearLayout>
 
