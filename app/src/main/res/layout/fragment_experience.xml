@@ -67,7 +67,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2010 - 2012 : BTSA GEMEAU option GSEA en alternance."/>
+            android:text="@string/_2010_2012_btsa_gemeau_option_gsea_en_alternance"/>
 
     </LinearLayout>
 

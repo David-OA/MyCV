@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         this.configureNavigationView();
 
         this.showFirstFragment();
+
     }
 
     @Override
