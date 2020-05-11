@@ -24,7 +24,7 @@
             android:id="@+id/separator"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/separateText"
             android:layout_margin="@dimen/small_margin"/>
 
         <TextView
@@ -41,7 +41,7 @@
             android:id="@+id/separator1"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/separateText"
             android:layout_margin="@dimen/small_margin"/>
 
         <TextView
@@ -54,7 +54,7 @@
             android:id="@+id/separator2"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/separateText"
             android:layout_margin="@dimen/small_margin"/>
 
         <TextView
@@ -67,7 +67,7 @@
             android:id="@+id/separator3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/separateText"
             android:layout_margin="@dimen/small_margin"/>
 
         <TextView
@@ -80,7 +80,7 @@
             android:id="@+id/separator4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
+            android:background="@color/separateText"
             android:layout_margin="@dimen/small_margin"/>
 
         <TextView
