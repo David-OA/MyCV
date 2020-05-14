@@ -34,7 +34,19 @@ public class HomeFragment extends Fragment {
 
 
             ArrayList<CompetenceItem> competenceList = new ArrayList<>();
-            competenceList.add(new CompetenceItem(R.drawable.david26, "Line 1", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Android Studio", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Git et GitHub", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Drupal 7 et 8", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "HTML5 et CSS3", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Java", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Symfony", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "PHP et MySQL", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Canva", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Gimp", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "SIG : Cart@Jour, Gérémi, mapinfo et Qgis", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Saphir pour l'eau potable", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Autocad", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "La suite Microsoft et Open Office", "Line 2"));
 
             mRecyclerView.setHasFixedSize(true);
             mLayoutManager = new LinearLayoutManager(getContext());
