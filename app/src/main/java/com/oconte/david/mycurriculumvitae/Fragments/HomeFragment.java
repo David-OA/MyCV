@@ -43,10 +43,12 @@ public class HomeFragment extends Fragment {
             competenceList.add(new CompetenceItem(R.drawable.david26, "PHP et MySQL", "Line 2"));
             competenceList.add(new CompetenceItem(R.drawable.david26, "Canva", "Line 2"));
             competenceList.add(new CompetenceItem(R.drawable.david26, "Gimp", "Line 2"));
-            competenceList.add(new CompetenceItem(R.drawable.david26, "SIG : Cart@Jour, Gérémi, mapinfo et Qgis", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "SIG : Cart@Jour, mapinfo", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "SIG : Gérémi, Qgis", "Line 2"));
             competenceList.add(new CompetenceItem(R.drawable.david26, "Saphir pour l'eau potable", "Line 2"));
             competenceList.add(new CompetenceItem(R.drawable.david26, "Autocad", "Line 2"));
-            competenceList.add(new CompetenceItem(R.drawable.david26, "La suite Microsoft et Open Office", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "La suite Microsoft", "Line 2"));
+            competenceList.add(new CompetenceItem(R.drawable.david26, "Open Office", "Line 2"));
 
             mRecyclerView.setHasFixedSize(true);
             mLayoutManager = new LinearLayoutManager(getContext());
