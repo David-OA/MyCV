@@ -180,7 +180,7 @@
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
-            <TextView
+            <!--<TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie"/>
@@ -213,7 +213,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/participation_aux_groupes_de_travail_d_partementale_r_gionnale_et_nationnale"/>
+                android:text="@string/participation_aux_groupes_de_travail_d_partementale_r_gionnale_et_nationnale"/>-->
 
         </LinearLayout>
 

@@ -84,12 +84,12 @@ public class HomeFragment extends Fragment {
 
         ArrayList<CompetenceItem> competenceList3 = new ArrayList<>();
         competenceList3.add(new CompetenceItem(R.drawable.android_studio, "intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie", "Line 2"));
-        competenceList3.add(new CompetenceItem(R.drawable.github, "Git et GitHub", "Line 2"));
-        competenceList3.add(new CompetenceItem(R.drawable.drupal, "Drupal 7 et 8", "Line 2"));
-        competenceList3.add(new CompetenceItem(R.drawable.html5_css3, "HTML5 et CSS3", "Line 2"));
-        competenceList3.add(new CompetenceItem(R.drawable.java, "Java", "Line 2"));
-        competenceList3.add(new CompetenceItem(R.drawable.symfony, "Symfony", "Line 2"));
-        competenceList3.add(new CompetenceItem(R.drawable.php_mysql, "PHP et MySQL", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.github, "Mesure et réglages en station et réservoir.", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.drupal, "Suivi et contrôle de chantier", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.html5_css3, "Chiffrage de travaux", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.java, "Recherche et réparation de fuites sur réseau.", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.symfony, "Mise en place de la télé relève: type sofrel", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.php_mysql, "Participation aux groupes de travail, départementale, régionnale et nationnale.", "Line 2"));
 
         mRecyclerView3.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(getContext());
