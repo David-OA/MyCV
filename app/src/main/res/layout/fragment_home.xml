@@ -173,6 +173,13 @@
                 style="@style/secondTitleText"
                 android:text="@string/techniques"/>
 
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="4dp"
+                android:scrollbars="vertical" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
