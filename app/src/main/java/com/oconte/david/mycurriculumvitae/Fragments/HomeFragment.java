@@ -64,13 +64,13 @@ public class HomeFragment extends Fragment {
         // ADMININISTRATIVE LIST
 
         ArrayList<CompetenceItem> competenceList2 = new ArrayList<>();
-        competenceList2.add(new CompetenceItem(R.drawable.android_studio, "Android Studio", "Line 2"));
-        competenceList2.add(new CompetenceItem(R.drawable.github, "Git et GitHub", "Line 2"));
-        competenceList2.add(new CompetenceItem(R.drawable.drupal, "Drupal 7 et 8", "Line 2"));
-        competenceList2.add(new CompetenceItem(R.drawable.html5_css3, "HTML5 et CSS3", "Line 2"));
-        competenceList2.add(new CompetenceItem(R.drawable.java, "Java", "Line 2"));
-        competenceList2.add(new CompetenceItem(R.drawable.symfony, "Symfony", "Line 2"));
-        competenceList2.add(new CompetenceItem(R.drawable.php_mysql, "PHP et MySQL", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.android_studio, "Site internet", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.github, "Gestion d'une base de données en Biologie", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.drupal, "Communication au près des usagers", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.html5_css3, "Commissions avec des élus", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.java, "Réunions publics et professionnelles", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.symfony, "Rapports et collectes des données sur logiciels", "Line 2"));
+        competenceList2.add(new CompetenceItem(R.drawable.php_mysql, "Budget prévisionnel et facturation", "Line 2"));
 
         mRecyclerView2.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(getContext());
@@ -83,7 +83,7 @@ public class HomeFragment extends Fragment {
         // TECHNIQUE LIST
 
         ArrayList<CompetenceItem> competenceList3 = new ArrayList<>();
-        competenceList3.add(new CompetenceItem(R.drawable.android_studio, "Android Studio", "Line 2"));
+        competenceList3.add(new CompetenceItem(R.drawable.android_studio, "intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie", "Line 2"));
         competenceList3.add(new CompetenceItem(R.drawable.github, "Git et GitHub", "Line 2"));
         competenceList3.add(new CompetenceItem(R.drawable.drupal, "Drupal 7 et 8", "Line 2"));
         competenceList3.add(new CompetenceItem(R.drawable.html5_css3, "HTML5 et CSS3", "Line 2"));
