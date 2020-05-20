@@ -23,8 +23,8 @@
         <View
             android:id="@+id/separator"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:background="@android:color/darker_gray"
+            android:layout_height="20dp"
+            android:background="@drawable/gradient_list"
             android:layout_margin="@dimen/small_margin"/>
 
         <TextView

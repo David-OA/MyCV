@@ -10,7 +10,11 @@ import android.view.ViewGroup;
 
 import com.oconte.david.mycurriculumvitae.R;
 
+import butterknife.BindView;
+
 public class EtudesFragment extends Fragment {
+
+    @BindView(R.id.separator) View viewSeparator;
 
     public static EtudesFragment newInstance() {
         return (new EtudesFragment());
@@ -20,12 +24,17 @@ public class EtudesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_etudes, container, false);
 
-        /*ConstraintLayout constraintLayout = findViewById(R.id.separator);
-        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(2000);
-        animationDrawable.setExitFadeDuration(4000);
-        animationDrawable.start();*/
+        //ViewSeparator();
+
 
         return view;
+    }
+
+    private void ViewSeparator(){
+        AnimationDrawable animationDrawable = (AnimationDrawable) viewSeparator.getBackground();
+        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setExitFadeDuration(4000);
+        animationDrawable.start();
+
     }
 }
