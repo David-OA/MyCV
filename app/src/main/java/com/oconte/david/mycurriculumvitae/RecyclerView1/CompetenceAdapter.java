@@ -1,4 +1,4 @@
-package com.oconte.david.mycurriculumvitae;
+package com.oconte.david.mycurriculumvitae.RecyclerView1;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.oconte.david.mycurriculumvitae.CompetenceItem;
+import com.oconte.david.mycurriculumvitae.R;
 
 import java.util.ArrayList;
 

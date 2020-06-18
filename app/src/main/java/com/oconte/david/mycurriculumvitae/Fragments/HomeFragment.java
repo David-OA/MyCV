@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.oconte.david.mycurriculumvitae.CompetenceAdapter;
+import com.oconte.david.mycurriculumvitae.RecyclerView1.CompetenceAdapter;
 import com.oconte.david.mycurriculumvitae.CompetenceItem;
 import com.oconte.david.mycurriculumvitae.R;
 

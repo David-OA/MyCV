@@ -21,11 +21,17 @@
             android:text="@string/etudes"/>
 
         <View
-            android:id="@+id/separator"
+            android:id="@+id/separator0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="@dimen/small_margin"/>
+        <!--<View
+            android:id="@+id/separator26"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:background="@drawable/gradient_list"
-            android:layout_margin="@dimen/small_margin"/>
+            android:layout_margin="@dimen/small_margin"/>-->
 
         <TextView
             android:layout_width="match_parent"

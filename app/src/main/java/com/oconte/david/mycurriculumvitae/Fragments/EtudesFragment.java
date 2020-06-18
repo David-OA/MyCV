@@ -14,7 +14,7 @@ import butterknife.BindView;
 
 public class EtudesFragment extends Fragment {
 
-    @BindView(R.id.separator) View viewSeparator;
+    //@BindView(R.id.separator26) View viewSeparator;
 
     public static EtudesFragment newInstance() {
         return (new EtudesFragment());
@@ -30,11 +30,11 @@ public class EtudesFragment extends Fragment {
         return view;
     }
 
-    private void ViewSeparator(){
+    /*private void ViewSeparator(){
         AnimationDrawable animationDrawable = (AnimationDrawable) viewSeparator.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
-    }
+    }*/
 }
