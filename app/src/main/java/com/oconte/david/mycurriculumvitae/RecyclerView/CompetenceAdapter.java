@@ -1,4 +1,4 @@
-package com.oconte.david.mycurriculumvitae.RecyclerView1;
+package com.oconte.david.mycurriculumvitae.RecyclerView;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

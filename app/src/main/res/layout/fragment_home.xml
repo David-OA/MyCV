@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/fragment_news_rootview0"
     android:orientation="vertical"
-    android:padding="15dp"
     android:background="@color/colorPrimaryLight">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,201 +19,18 @@
                 style="@style/titleText"
                 android:text="@string/comp_tences"/>
 
-            <ImageView
+            <View
+                android:id="@+id/separator"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/secondTitleText"
-                android:text="@string/logicielles"/>
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="@dimen/small_margin"/>
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:padding="4dp"
+                android:layout_height="match_parent"
                 android:scrollbars="vertical" />
-
-            <!-- <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/android_studio"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/git_et_github"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/drupal_7_et_8"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/html5_et_css3"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/java"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/symfony"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/php_et_mysql"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/canva"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/gimp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/sig_cart_jour_g_r_mi_mapinfo_et_qgis"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/le_logiciel_saphir_pour_l_eau_potable"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/autocad"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/la_suite_microsoft_et_open_office"/> -->
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/secondTitleText"
-                android:text="@string/administratives"/>
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerView2"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:padding="4dp"
-                android:scrollbars="vertical" />
-
-            <!--<TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/site_internet"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/g_stion_d_une_base_de_donn_e_en_biologie"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/communication_au_pr_s_des_usagers"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/commissions_avec_des_lus"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/r_unions_publics_et_professionneles"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rapports_et_collectes_des_donn_es_sur_logiciel"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/budget_pr_visionnel_et_facturation"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"/>-->
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/secondTitleText"
-                android:text="@string/techniques"/>
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerView3"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:padding="4dp"
-                android:scrollbars="vertical" />
-
-            <!--<TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/mesure_et_r_glages_en_station_et_r_servoir"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/suivi_et_contr_le_de_chantier" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/chiffrage_de_travaux"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/recherche_et_r_paration_de_fuites_sur_r_seau"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/mise_en_place_de_la_t_l_rel_ve_type_sofrel"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/participation_aux_groupes_de_travail_d_partementale_r_gionnale_et_nationnale"/>-->
-
         </LinearLayout>
-
-
-    </ScrollView>
 
 </LinearLayout>
