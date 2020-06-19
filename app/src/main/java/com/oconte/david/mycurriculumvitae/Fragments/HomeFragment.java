@@ -1,5 +1,6 @@
 package com.oconte.david.mycurriculumvitae.Fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.oconte.david.mycurriculumvitae.ItemClickSupport;
 import com.oconte.david.mycurriculumvitae.RecyclerView.CompetenceAdapter;
 import com.oconte.david.mycurriculumvitae.CompetenceItem;
 import com.oconte.david.mycurriculumvitae.R;
@@ -36,7 +38,22 @@ public class HomeFragment extends Fragment {
         this.recyclerViewSetting();
 
 
+        //this.configureOnClickRecyclerView();
+
         return view;
+    }
+
+    private void configureOnClickRecyclerView(){
+        ItemClickSupport.addTo(mRecyclerView, R.layout.competence_item)
+                .setOnItemClickListener(new ItemClickSupport.OnItemClickListener() {
+                    @Override
+                    public void onItemClicked(RecyclerView recyclerView, int position, View v) {
+
+                        Intent intent = new Intent(getContext(),DetailFragment.class);
+
+                        startActivity(intent);
+                    }
+                });
     }
 
     public void recyclerViewSetting() {
@@ -86,4 +103,6 @@ public class HomeFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mAdapter);
     }
+
+
 }
