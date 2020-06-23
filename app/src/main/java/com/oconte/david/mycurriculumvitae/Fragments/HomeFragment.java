@@ -88,7 +88,7 @@ public class HomeFragment extends Fragment {
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Budget prévisionnel et facturation", "Administratives"));
 
         //Techniques need to change pictures
-        competenceList.add(new CompetenceItem(R.drawable.mountains, "intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Intervention et suivi sur des cas spéciaux (ex : une laiterie)", "Techniques"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Mesure et réglages en station et réservoir.", "Techniques"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Suivi et contrôle de chantier", "Techniques"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Chiffrage de travaux", "Techniques"));
