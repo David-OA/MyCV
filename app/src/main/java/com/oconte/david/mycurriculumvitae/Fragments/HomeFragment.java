@@ -71,8 +71,8 @@ public class HomeFragment extends Fragment {
         competenceList.add(new CompetenceItem(R.drawable.php_mysql, "PHP et MySQL", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.canva, "Canva", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.gimp, "Gimp", "Logicielles"));
-        competenceList.add(new CompetenceItem(R.drawable.david26, "SIG : Cart@Jour, mapinfo", "Logicielles"));
-        competenceList.add(new CompetenceItem(R.drawable.david26, "SIG : Gérémi, Qgis", "Logicielles"));
+        competenceList.add(new CompetenceItem(R.drawable.g2c, "SIG : Cart@Jour, mapinfo", "Logicielles"));
+        competenceList.add(new CompetenceItem(R.drawable.qgis, "SIG : Gérémi, Qgis", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.david26, "Saphir pour l'eau potable", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.autocad, "Autocad", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.microsoft_office, "La suite Microsoft", "Logicielles"));
