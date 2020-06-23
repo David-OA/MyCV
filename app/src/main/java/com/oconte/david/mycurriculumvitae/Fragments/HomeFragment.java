@@ -73,28 +73,28 @@ public class HomeFragment extends Fragment {
         competenceList.add(new CompetenceItem(R.drawable.gimp, "Gimp", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.g2c, "SIG : Cart@Jour, mapinfo", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.qgis, "SIG : Gérémi, Qgis", "Logicielles"));
-        competenceList.add(new CompetenceItem(R.drawable.david26, "Saphir pour l'eau potable", "Logicielles"));
+        competenceList.add(new CompetenceItem(R.drawable.saphir, "Saphir pour l'eau potable", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.autocad, "Autocad", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.microsoft_office, "La suite Microsoft", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.open_office, "Open Office", "Logicielles"));
 
         //Administratives need to change pictures
-        competenceList.add(new CompetenceItem(R.drawable.android_studio, "Site internet", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.github, "Gestion d'une base de données en Biologie", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.drupal, "Communication au près des usagers", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.html5_css3, "Commissions avec des élus", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.java, "Réunions publics et professionnelles", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.symfony, "Rapports et collectes des données sur logiciels", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.php_mysql, "Budget prévisionnel et facturation", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Site internet", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Gestion d'une base de données en Biologie", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Communication au près des usagers", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Commissions avec des élus", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Réunions publics et professionnelles", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Rapports et collectes des données sur logiciels", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Budget prévisionnel et facturation", "Administratives"));
 
         //Techniques need to change pictures
-        competenceList.add(new CompetenceItem(R.drawable.android_studio, "intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie", "Techniques"));
-        competenceList.add(new CompetenceItem(R.drawable.github, "Mesure et réglages en station et réservoir.", "Techniques"));
-        competenceList.add(new CompetenceItem(R.drawable.drupal, "Suivi et contrôle de chantier", "Techniques"));
-        competenceList.add(new CompetenceItem(R.drawable.html5_css3, "Chiffrage de travaux", "Techniques"));
-        competenceList.add(new CompetenceItem(R.drawable.java, "Recherche et réparation de fuites sur réseau.", "Techniques"));
-        competenceList.add(new CompetenceItem(R.drawable.symfony, "Mise en place de la télé relève: type sofrel", "Techniques"));
-        competenceList.add(new CompetenceItem(R.drawable.php_mysql, "Participation aux groupes de travail, départementale, régionnale et nationnale.", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "intervention_et_suivi_sur_des_cas_sp_ciaux_ex_une_laiterie", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Mesure et réglages en station et réservoir.", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Suivi et contrôle de chantier", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Chiffrage de travaux", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Recherche et réparation de fuites sur réseau.", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Mise en place de la télé relève: type sofrel", "Techniques"));
+        competenceList.add(new CompetenceItem(R.drawable.mountains, "Participation aux groupes de travail, départementale, régionnale et nationnale.", "Techniques"));
 
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(getContext());
