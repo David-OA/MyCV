@@ -64,6 +64,7 @@ public class HomeFragment extends Fragment {
         //Logicielles
         competenceList.add(new CompetenceItem(R.drawable.android_studio, "Android Studio", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.github, "Git et GitHub", "Logicielles"));
+        competenceList.add(new CompetenceItem(R.drawable.ubuntu, "Linux - Ubuntu", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.drupal, "Drupal 7 et 8", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.html5_css3, "HTML5 et CSS3", "Logicielles"));
         competenceList.add(new CompetenceItem(R.drawable.java, "Java", "Logicielles"));
