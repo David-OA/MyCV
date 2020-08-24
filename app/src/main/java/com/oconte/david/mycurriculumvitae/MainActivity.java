@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Fragment fragmentLangues;
     private Fragment fragmentInterests;
 
-    //FOR DATAS
+    //FOR DATA
     // 2 - Identify each fragment with a number
     private static final int FRAGMENT_HOME = 0;
     private static final int FRAGMENT_COORDONNEES = 1;
@@ -237,8 +237,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (this.fragmentLangues == null) this.fragmentLangues = LanguesFragment.newInstance();
         this.startTransactionFragment(this.fragmentLangues);
     }
-
-    // ---
 
     // 3 - Generic method that will replace and show a fragment inside the MainActivity Frame Layout
     private void startTransactionFragment(Fragment fragment) {
