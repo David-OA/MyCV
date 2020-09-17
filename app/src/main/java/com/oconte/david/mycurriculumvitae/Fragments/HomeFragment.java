@@ -83,8 +83,8 @@ public class HomeFragment extends Fragment {
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Site internet", "Administratives"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Gestion d'une base de données en Biologie", "Administratives"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Communication au près des usagers", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.mountains, "Commissions avec des élus", "Administratives"));
-        competenceList.add(new CompetenceItem(R.drawable.mountains, "Réunions publics et professionnelles", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.reunion, "Commissions avec des élus", "Administratives"));
+        competenceList.add(new CompetenceItem(R.drawable.reunion_public, "Réunions publics et professionnelles", "Administratives"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Rapports et collectes des données sur logiciels", "Administratives"));
         competenceList.add(new CompetenceItem(R.drawable.mountains, "Budget prévisionnel et facturation", "Administratives"));
 
