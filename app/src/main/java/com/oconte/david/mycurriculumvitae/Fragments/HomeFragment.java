@@ -36,8 +36,7 @@ public class HomeFragment extends Fragment {
         ButterKnife.bind(this, view);
 
         this.recyclerViewSetting();
-
-
+        
         //this.configureOnClickRecyclerView();
 
         return view;
