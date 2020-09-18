@@ -34,19 +34,19 @@ This is my CV.
 
 ## EXPERIENCES PROFESSIONNELLES
 
-- Octobre - Décembre 2016: Stage de perfectionnement en Réseau Urbain et Management.
-- Mai 2014 - 31 octobre 2015 : Mission de mise en place et gestion du service ANC pour une collectivité.
-- 2012 - Mai 2013 : SAUR Chargé de missions auprès du Chef de secteur
-- 2010 – 2012 : BTSA GEMEAU option GSEA en alternance à la communauté des communes du Pays de Marsanne, création et gestion du service SPANC.
+  - Octobre - Décembre 2016: Stage de perfectionnement en Réseau Urbain et Management.
+  - Mai 2014 - 31 octobre 2015 : Mission de mise en place et gestion du service ANC pour une collectivité.
+  - 2012 - Mai 2013 : SAUR Chargé de missions auprès du Chef de secteur
+  - 2010 – 2012 : BTSA GEMEAU option GSEA en alternance à la communauté des communes du Pays de Marsanne, création et gestion du service SPANC.
 
 ## ETUDES ET DIPLOMES
 
-- 2019 -aujourd'hui Etudiant OpenClassRooms parcours DA Android
-- 2010 – 2012 : BTSA Gestion et Maîtrise de l’eau option GSEA CFA Nîmes-Rodihlan en alternance et réalisation d'un mémoire technique.
-- 2009 – 2010 : Licence de Biologie à Toulon
-- 2009 : Bac S option biologie écologie
+  - 2019 -aujourd'hui Etudiant OpenClassRooms parcours DA Android
+  - 2010 – 2012 : BTSA Gestion et Maîtrise de l’eau option GSEA CFA Nîmes-Rodihlan en alternance et réalisation d'un mémoire technique.
+  - 2009 – 2010 : Licence de Biologie à Toulon
+  - 2009 : Bac S option biologie écologie
 
 ## CENTRES D'INTERET
 
-- Sport : équitation (galop 7), polo en compétition (champion de France 2016), jeux vidéos sur
-- multi supports, VTT et la randonnée
+  - Sport : équitation (galop 7), polo en compétition (champion de France 2016), jeux vidéos sur
+  - multi supports, VTT et la randonnée
