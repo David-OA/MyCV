@@ -13,7 +13,7 @@ This is my CV.
     - SIG : Cart@jour, Gérémi, mapinfo, topspanc, Qgis et saphir, porteau pour l’eau potable
     - Autocad et la suite Microsoft
 
-- ### Administratives :
+  - ### Administratives :
 
     - Mise en place du service, de la communication au prés des usagers
     - Animation des commissions avec les élus et réunions publiques
@@ -23,7 +23,7 @@ This is my CV.
     - Suivi de chantier ANC, système autonome plus de 20 EH, AC et AEP, entretien de rivières.
     - Travaux sur un lagunage.
     
-- ### Techniques :
+  - ### Techniques :
 
     - Intervention et suivi sur des micro stations de plus de 20 EH et cas spéciaux (ex: laiterie), mesure et réglage du chlore en station et réservoir.
     - Suivi et contrôle de chantiers.
