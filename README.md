@@ -2,7 +2,7 @@
 
 This is my CV.
 
-<img src="./app/src/main/res/drawable/mycv.pdf?Raw=true" width="30%" height="30%">
+<img src="./app/src/main/res/drawable/mycv.png?Raw=true" width="30%" height="30%">
 
 ## COMPETENCES
 
