@@ -1,18 +1,14 @@
 package com.oconte.david.mycurriculumvitae.Fragments;
 
-import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.oconte.david.mycurriculumvitae.R;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class CoordonneesFragment extends Fragment {
 
