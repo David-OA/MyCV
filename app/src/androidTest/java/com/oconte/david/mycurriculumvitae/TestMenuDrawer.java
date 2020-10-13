@@ -13,9 +13,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.io.IOException;
+
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.contrib.DrawerMatchers.isClosed;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.junit.Assert.*;
@@ -32,12 +35,13 @@ public class TestMenuDrawer {
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<MainActivity>(MainActivity.class, false, false);
 
     @Test
-    public void testCoordonnées() {
+    public void testCoordonnées() throws IOException, InterruptedException {
         // Open Drawer to click on navigation.
-        onView(withId(R.id.activity_main_nav_view))
-                .check(matches(isClosed(Gravity.LEFT))) // Left Drawer should be closed.
-                .perform(DrawerActions.open()); // Open Drawer
+        //onView(withId(R.id.activity_main_drawerLayout))
+                //.check(matches(isClosed(Gravity.LEFT))) // Left Drawer should be closed.
+                //.perform(DrawerActions.open()); // Open Drawer
 
+        onView(withId(R.id.toolbar)).check(matches(isDisplayed()));
         /* Start the screen of your activity.
         onView(withId(R.id.nav_view))
                 .perform(NavigationViewActions.navigateTo(R.id.your_navigation_menu_item));
