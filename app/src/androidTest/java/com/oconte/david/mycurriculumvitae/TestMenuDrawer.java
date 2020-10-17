@@ -35,6 +35,7 @@ public class TestMenuDrawer {
 
         onView(withId(R.id.toolbar)).check(matches(isDisplayed()));
 
+        onView(withId(R.id.activity_main_frame_layout)).check(matches(isDisplayed()));
         //onView(withId(R.id.activity_main_nav_view)).check(matches(isDisplayed()));
 
         // Open Drawer to click on navigation.
