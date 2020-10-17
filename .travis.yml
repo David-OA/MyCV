@@ -24,6 +24,11 @@ android:
     - sys-img-x86-android-28
     - sys-img-armeabi-v7a-android-17
 
+    licenses:
+      - 'android-sdk-preview-license-52d11cd2'
+      - 'android-sdk-license-.+'
+      - 'google-gdk-license-.+'
+
     before_script:
       -  chmond +x gradlew
 
