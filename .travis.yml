@@ -33,7 +33,7 @@ android:
       -  chmond +x gradlew
 
     script:
-      -  ./gradlew assembleRelease --stacktrace
+      -  ./gradlew assembleDebug --stacktrace
 
 
 
