@@ -29,8 +29,8 @@ android:
       #- 'android-sdk-license-.+'
       #- 'google-gdk-license-.+'
 
-    before_script:
-      -  chmond +x gradlew
+    #before_script:
+     # -  chmond +x gradlew
 
     script:
       -  ./gradlew assembleDebug --stacktrace
