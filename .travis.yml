@@ -22,7 +22,7 @@ android:
     - sys-img-armeabi-v7a-android-17
 
 before_script:
-  - cd MyNews
+  #- cd MyNews
   - chmod +x gradlew
   - ./gradlew build jacocoTestReport assembleAndroidTest
   - echo no | android create avd --force -n test -t android-$EMULATOR_API_LEVEL --abi $ANDROID_ABI
