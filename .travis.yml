@@ -27,6 +27,8 @@ android:
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
 
+install: true
+
 before_script:
   - chmod +x gradlew
 
