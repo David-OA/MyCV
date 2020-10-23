@@ -1,6 +1,7 @@
 language: android
 dist: trusty
 jdk: oraclejdk8
+sudo: false
 android:
   components:
     # Uncomment the lines below if you want to
@@ -14,6 +15,7 @@ android:
     # The SDK version used to compile your project
     - android-15
     # Additional components
+    - extra-android-support
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
