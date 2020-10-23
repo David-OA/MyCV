@@ -29,4 +29,6 @@ android:
 
 before_script:
   - chmod +x gradlew
-  #- ./gradlew assembleDebug --stacktrace
+
+script:
+  - ./gradlew assembleDebug --stacktrace
