@@ -41,4 +41,4 @@ before_script:
   - chmod +x gradlew
 
 script:
-  - ./gradlew assembleDebug --stacktrace
+  - ./gradlew assembleDebug 
