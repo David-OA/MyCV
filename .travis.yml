@@ -41,4 +41,5 @@ before_script:
   - chmod +x gradlew
 
 script:
+    # Try to fix the bug
   - ./gradlew assembleDebug --stacktrace
