@@ -169,6 +169,6 @@ if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
   cd "$(dirname "$0")"
 fi
 
-:set fileformat=unix
+
 exec "$JAVACMD" "$@"
 
